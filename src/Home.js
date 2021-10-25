@@ -6,7 +6,6 @@ import OSLogo from './OSLogo.png';
 import './App';
 import styled from "styled-components";
 import { Link } from 'react-router-dom';
-import './App.css';
 
 export const StyledButton = styled.button`
   padding: 10px;
