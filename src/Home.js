@@ -11,10 +11,10 @@ export const StyledButton = styled.button`
   padding: 10px;
   border-radius: 50px;
   border: none;
-  background-color: var(--secondary);
+  background-color: #000000;
   padding: 10px;
-  font-weight: bold;
-  color: var(--secondary-text);
+  font-weight: 800;
+  color: #FFFFFF;
   width: 100px;
   cursor: pointer;
   :active {
@@ -26,19 +26,15 @@ export const StyledButton = styled.button`
 
 const Home = () => {
     return (
-      
         <body className="cust" style={{
             textAlign: "center"
 
-        }}>
-            
+        }}>            
             <br></br>
             <h1> <img src={HomeLogo} alt="loading..." style={{
-                height: 100,
-                width: 600
-            }} /> </h1>
-                <br></br><br></br>
-
+                height: 150,
+                width: 500
+            }} /> </h1>               
                 <a href="https://www.twitter.com/abstrctnumbers">
                     <img src={TwitterLogo} alt="loading..." style={{
                         height: 24,
@@ -46,7 +42,7 @@ const Home = () => {
                         width: 24
                     }} />
                 </a>
-                <a href="https://www.discord.com">
+                <a href="https://discord.gg/a3re3sSPHs">
                     <img src={DiscordLogo} alt="loading..." style={{
                         height: 24,
                         padding: 2,
@@ -60,7 +56,7 @@ const Home = () => {
                         width: 24
                     }} />
                 </a>
-                <br></br><br></br><br></br>
+                <br></br><br></br><br></br><br></br><br></br>
 
             <h2 style={{
                 padding: "5px",
@@ -79,7 +75,7 @@ const Home = () => {
                 is generated upon minting. Each trait is </p></strong>
                 set in the contract and will be chosen randomly. <br></br>
 
-            <br></br><br></br><br></br>
+            <br></br><br></br>
 
             <h2 style={{
                 padding: "5px",
