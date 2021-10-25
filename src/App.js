@@ -12,12 +12,14 @@ export default function App() {
   return (
 <Router>    
 <Switch>
+
+<Route path="/mint">
+            <Mint />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
-          <Route path="/mint">
-            <Mint />
-          </Route>
+          
         </Switch>
 
 </Router>
