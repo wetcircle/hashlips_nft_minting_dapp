@@ -80,7 +80,6 @@ const Home = () => {
                 The traits for each number will be generated upon mint<br></br>
                 This ensures a fair & transparent launch because rarity will<br></br>
                 be chosen randomly by the minters!<br></br>
-                Shoutout to thedudes for allowing us to use their contract
                   </p></strong>
                  <br></br>
 
